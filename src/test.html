@@ -39,8 +39,10 @@
 		<script>
 			var calc = jim("targetClassName");
 			var total =document.getElementsByClassName('targetClassName');
-			console.log(total.length)
-			console.log( calc === total)
+			console.log("jim calculated length" + calc.length)
+			console.log("getElementsByClassName length" + total.length)
+			console.log("comparision with types" + calc === total)
+			console.log("comparision without types" + calc === total)
 			console.log(calc);
 			console.log(total);
 			console.log(typeof(calc));
